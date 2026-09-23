@@ -65,12 +65,11 @@ body {
 .menu-grid {
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
 }
 
 .menu-item {
   width: 320px;
-  flex-shrink: 1;
+  flex-shrink: 0;
   background: white;
   border-radius: 10px;
   padding: 16px;
